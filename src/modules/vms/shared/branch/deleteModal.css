@@ -1,0 +1,108 @@
+.branch-containerRemove{
+    width: 35.41vw !important;
+  min-height:274px !important;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left: 50%;
+  border-radius: 10px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.branch-warning_tag{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: #1F1F1F;
+    margin-top: 40px;
+}
+
+.branch-text-area{
+    width: 75%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:1600px) and (min-width:992px){
+    .branch-containerRemove{
+        width: 35.41vw;
+        min-height:220px !important;
+        background-color: #ffffff;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top:50%;
+        left: 50%;
+        border-radius: 10px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .branch-warning_tag{
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #1F1F1F;
+    }
+   
+
+
+}
+
+
+@media only screen and (max-width:992px) and (min-width:768px) {
+    .branch-containerRemove{
+
+        width: 35.41vw;
+        min-height:220px !important;
+        background-color: #ffffff;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top:50%;
+        left: 50%;
+        border-radius: 10px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .branch-warning_tag{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 34px;
+        color: #1F1F1F;
+    }
+
+}
+
+@media only screen and (max-width:768px) and (min-width:128px)  {
+
+    .branch-containerRemove{
+        width: 35.41vw;
+        min-height:220px !important;
+        background-color: #ffffff;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top:50%;
+        left: 50%;
+        border-radius: 10px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+    }
+
+    .branch-warning_tag{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 34px;
+        color: #1F1F1F;
+    }
+
+
+}
